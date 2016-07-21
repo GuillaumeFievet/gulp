@@ -1,5 +1,5 @@
 {
-  "name": "gulp",
+  "name": "gulptest",
   "version": "1.0.0",
   "description": "gulpfile",
   "main": "gulpfile.js",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/GuillaumeFievet/gulp/issues"
   },
-  "homepage": "https://github.com/GuillaumeFievet/gulp#readme"
+  "homepage": "https://github.com/GuillaumeFievet/gulp#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
