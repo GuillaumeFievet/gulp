@@ -86,7 +86,7 @@
 
 	if(process.argv[3]!=undefined){var current=process.argv[3].substring(2)}else{current="20160312-saint-valentin"}
 
-	var config 		   = {host: '172.19.24.42',port: 22,username: 'cofaxpub',password:'c0faxpub',dest:'/opt/webroot/cofax/static/bcom/desktop/evenements/'+current}
+	var config 		   = {dest:'/opt/webroot/cofax/static/bcom/desktop/evenements/'+current}
 	var ftp            = require('gulp-scp2');
 	var ssh 	       = require('gulp-ssh');
 	var ssh 		   = new ssh({ignoreErrors: false,sshConfig: config})
